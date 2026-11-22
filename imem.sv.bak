@@ -1,0 +1,22 @@
+module imem(
+    input  logic [31:0] a,
+    output logic [31:0] rd
+);
+    logic [31:0] RAM[63:0];
+
+    initial begin
+        RAM[0] = 32'hE3A0000F; 
+        RAM[1] = 32'hE3A01004; 
+        RAM[2] = 32'hE0802001; 
+        RAM[3] = 32'hE0403001; 
+        RAM[4] = 32'hE1A04101; 
+        RAM[5] = 32'hE5804005; 
+        RAM[6] = 32'hE5915010; 
+        RAM[7] = 32'hE08F6003; 
+        RAM[8] = 32'hE0467001; 
+        RAM[9] = 32'hE0878005; 
+        RAM[10]= 32'hE5808055; 
+    end
+
+    assign rd = RAM[a[31:2]]; 
+endmodule

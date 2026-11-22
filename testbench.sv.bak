@@ -1,0 +1,37 @@
+module testbench();
+    logic        clk, reset;
+    logic [31:0] WriteData, DataAdr;
+    logic        MemWrite;
+
+    arm_top dut(
+        .clk(clk),
+        .reset(reset),
+        .WriteData(WriteData),
+        .DataAdr(DataAdr),
+        .MemWrite(MemWrite)
+    );
+
+    initial begin
+        reset = 1; #12; reset = 0;
+    end
+
+    always begin
+        clk = 1; #5; clk = 0; #5;
+    end
+
+    always @(negedge clk) begin
+        if (MemWrite) begin
+            $display("[Time=%0t] STR thực thi: Mem[%0d] <= %0d (0x%h)", 
+                     $time, DataAdr, WriteData, WriteData);
+            if (DataAdr === 32'd100 && WriteData === 32'd59) begin
+                $display("---------------------------------------------------------");
+                $display("=> MO PHONG THANH CONG! Tat ca cac lenh va PC+4/PC+8 dung!");
+                $display("---------------------------------------------------------");
+                $stop;
+            end else if (DataAdr !== 32'd20) begin
+                $display("=> MO PHONG THAT BAI tai dia chi %0d voi gia tri %0d", DataAdr, WriteData);
+                $stop;
+            end
+        end
+    end
+endmodule 

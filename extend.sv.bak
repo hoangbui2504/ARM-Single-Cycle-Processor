@@ -1,0 +1,17 @@
+module extend(
+    input  logic [11:0] Instr,
+    input  logic        ImmSrc,
+    output logic [31:0] ExtImm
+);
+    logic [31:0] imm8_ext;
+    logic [4:0]  rot_amt;
+    assign imm8_ext = {24'b0, Instr[7:0]};
+    assign rot_amt  = {Instr[11:8], 1'b0}; // rot * 2
+
+    always_comb
+        case(ImmSrc)
+            1'b0: ExtImm = (rot_amt == 5'd0) ? imm8_ext : 
+                           ((imm8_ext >> rot_amt) | (imm8_ext << (32 - rot_amt)));
+            1'b1: ExtImm = {20'b0, Instr[11:0]};
+        endcase
+endmodule 

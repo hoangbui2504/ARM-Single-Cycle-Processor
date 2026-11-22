@@ -1,0 +1,48 @@
+module alu_decoder(
+    input  logic       ALUOp,
+    input  logic [5:0] Funct,
+
+    output logic [1:0] FlagW,
+    output logic [1:0] ALUControl
+);
+
+    logic [3:0] controls;
+
+    always_comb begin
+
+        if (ALUOp == 1'b0)
+            controls = 4'b0000;
+
+        else begin
+            case (Funct[4:1])
+
+                // ADD, ADDS
+                4'b0100:
+                    controls = {Funct[0], Funct[0], 2'b00};
+
+                // SUB, SUBS
+                4'b0010:
+                    controls = {Funct[0], Funct[0], 2'b01};
+
+                // AND, ANDS
+                4'b0000:
+                    controls = {Funct[0], 1'b0, 2'b10};
+
+                // OR, ORS
+                4'b1100:
+                    controls = {Funct[0], 1'b0, 2'b11};
+
+                // CMP
+                4'b1010:
+                    controls = 4'b1101;
+
+                default:
+                    controls = 4'b0000;
+
+            endcase
+        end
+    end
+
+    assign {FlagW, ALUControl} = controls;
+
+endmodule
