@@ -13,209 +13,209 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/arm_top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:43 on Nov 21,2026
+# Start time: 20:39:49 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/arm_top.sv 
 # -- Compiling module arm_top
 # 
 # Top level modules:
 # 	arm_top
-# End time: 20:06:43 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:49 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/arm_cpu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:43 on Nov 21,2026
+# Start time: 20:39:49 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/arm_cpu.sv 
 # -- Compiling module arm_cpu
 # 
 # Top level modules:
 # 	arm_cpu
-# End time: 20:06:44 on Nov 21,2026, Elapsed time: 0:00:01
+# End time: 20:39:49 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/control_unit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:44 on Nov 21,2026
+# Start time: 20:39:50 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/control_unit.sv 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 20:06:44 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:50 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:44 on Nov 21,2026
+# Start time: 20:39:51 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 20:06:44 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:51 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:44 on Nov 21,2026
+# Start time: 20:39:51 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/regfile.sv 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 20:06:44 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:51 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/shifter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:45 on Nov 21,2026
+# Start time: 20:39:51 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/shifter.sv 
 # -- Compiling module shifter
 # 
 # Top level modules:
 # 	shifter
-# End time: 20:06:45 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:51 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:45 on Nov 21,2026
+# Start time: 20:39:52 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/extend.sv 
 # -- Compiling module extend
 # 
 # Top level modules:
 # 	extend
-# End time: 20:06:45 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:52 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:45 on Nov 21,2026
+# Start time: 20:39:52 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 20:06:45 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:52 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:46 on Nov 21,2026
+# Start time: 20:39:52 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/adder.sv 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 20:06:46 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:52 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/mux2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:46 on Nov 21,2026
+# Start time: 20:39:53 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/mux2.sv 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 20:06:46 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:53 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/flopr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:46 on Nov 21,2026
+# Start time: 20:39:53 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/flopr.sv 
 # -- Compiling module flopr
 # 
 # Top level modules:
 # 	flopr
-# End time: 20:06:46 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:53 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/flopenr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:47 on Nov 21,2026
+# Start time: 20:39:53 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/flopenr.sv 
 # -- Compiling module flopenr
 # 
 # Top level modules:
 # 	flopenr
-# End time: 20:06:47 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:53 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/main_decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:47 on Nov 21,2026
+# Start time: 20:39:54 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/main_decoder.sv 
 # -- Compiling module main_decoder
 # 
 # Top level modules:
 # 	main_decoder
-# End time: 20:06:47 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:54 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/alu_decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:47 on Nov 21,2026
+# Start time: 20:39:54 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/alu_decoder.sv 
 # -- Compiling module alu_decoder
 # 
 # Top level modules:
 # 	alu_decoder
-# End time: 20:06:47 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:54 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/pc_logic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:48 on Nov 21,2026
+# Start time: 20:39:54 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/pc_logic.sv 
 # -- Compiling module pc_logic
 # 
 # Top level modules:
 # 	pc_logic
-# End time: 20:06:48 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:55 on Nov 26,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:48 on Nov 21,2026
+# Start time: 20:39:55 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/decoder.sv 
 # -- Compiling module decoder
 # 
 # Top level modules:
 # 	decoder
-# End time: 20:06:48 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:55 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/condlogic.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:48 on Nov 21,2026
+# Start time: 20:39:55 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/condlogic.sv 
 # -- Compiling module condlogic
 # 
 # Top level modules:
 # 	condlogic
-# End time: 20:06:48 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:55 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/dmem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:48 on Nov 21,2026
+# Start time: 20:39:55 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/dmem.sv 
 # -- Compiling module dmem
 # 
 # Top level modules:
 # 	dmem
-# End time: 20:06:49 on Nov 21,2026, Elapsed time: 0:00:01
+# End time: 20:39:55 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/imem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:49 on Nov 21,2026
+# Start time: 20:39:56 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/imem.sv 
 # -- Compiling module imem
 # 
 # Top level modules:
 # 	imem
-# End time: 20:06:49 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:56 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/Bui\ Hoang/Documents/FPGA/arm {C:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:06:49 on Nov 21,2026
+# Start time: 20:39:56 on Nov 26,2026
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm" C:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 20:06:49 on Nov 21,2026, Elapsed time: 0:00:00
+# End time: 20:39:56 on Nov 26,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 20:06:49 on Nov 21,2026
+# Start time: 20:39:57 on Nov 26,2026
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.arm_top
@@ -244,27 +244,12 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Time=25000 | PC=00000000 | Instr=e3a0000f | ALUResult=15 | WriteData=8 | MemWrite=0 | Flags(NZCV)=0000
-# Time=35000 | PC=00000004 | Instr=e3a01005 | ALUResult=5 | WriteData=x | MemWrite=0 | Flags(NZCV)=0000
-# Time=45000 | PC=00000008 | Instr=e0802081 | ALUResult=25 | WriteData=5 | MemWrite=0 | Flags(NZCV)=0000
-# Time=55000 | PC=0000000c | Instr=e0423001 | ALUResult=20 | WriteData=5 | MemWrite=0 | Flags(NZCV)=0010
-# Time=65000 | PC=00000010 | Instr=e1500001 | ALUResult=10 | WriteData=5 | MemWrite=0 | Flags(NZCV)=0010
-# Time=75000 | PC=00000014 | Instr=0a000002 | ALUResult=36 | WriteData=25 | MemWrite=0 | Flags(NZCV)=0000
-# Time=85000 | PC=00000018 | Instr=e0004001 | ALUResult=5 | WriteData=5 | MemWrite=0 | Flags(NZCV)=0000
-# Time=95000 | PC=0000001c | Instr=e1845003 | ALUResult=21 | WriteData=20 | MemWrite=0 | Flags(NZCV)=0000
-# Time=105000 | PC=00000020 | Instr=e5835050 | ALUResult=100 | WriteData=21 | MemWrite=1 | Flags(NZCV)=0000
-# >>> [PASS Bước 1]: Lenh STR ghi dung gia tri 21 vao dia chi 100.
-# Time=115000 | PC=00000024 | Instr=e5936050 | ALUResult=100 | WriteData=15 | MemWrite=0 | Flags(NZCV)=0000
-# Time=125000 | PC=00000028 | Instr=e0867000 | ALUResult=36 | WriteData=15 | MemWrite=0 | Flags(NZCV)=0000
-# Time=135000 | PC=0000002c | Instr=e5837054 | ALUResult=104 | WriteData=36 | MemWrite=1 | Flags(NZCV)=0000
-# ==========================================================
-# >>> [TEST PASSED]: TAT CA CAC LENH VA TIN HIEU CHAY DUNG! <<<
-#     - MOV, ADD, SUB, AND, ORR, Shifter: OK
-#     - CMP & NoWrite (R0 khong bi ghi de): OK
-#     - LDR, STR & Branch Condition: OK
-# ==========================================================
-# ** Note: $stop    : C:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv(72)
-#    Time: 135 ns  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv line 72
-# End time: 20:35:25 on Nov 21,2026, Elapsed time: 0:28:36
+# [Time 100000 ns] Ghi RAM: Dia chi = 100 | Du lieu = 21
+# [Time 130000 ns] Ghi RAM: Dia chi = 104 | Du lieu = 36
+# === THANH CONG: CPU da thuc thi dung toan bo tap lenh mem.dat! ===
+# ** Note: $finish    : C:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv(96)
+#    Time: 150 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at C:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv line 96
+# End time: 20:47:45 on Nov 26,2026, Elapsed time: 0:07:48
 # Errors: 0, Warnings: 0

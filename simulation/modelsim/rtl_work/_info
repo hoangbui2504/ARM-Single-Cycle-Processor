@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/Bui Hoang/Documents/FPGA/arm/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1795266406
+Z2 !s110 1795700392
 !i10b 1
 !s100 U;NMHL59U9M@_^_NIddVj2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1795266406.000000
+Z6 !s108 1795700392.000000
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/adder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/adder.sv|
 !i113 1
@@ -37,7 +37,7 @@ Z8 !s92 -sv -work work {+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm}
 Z9 tCvgOpt 0
 valu
 R1
-Z10 !s110 1795266405
+R2
 !i10b 1
 !s100 _Ml5LHNk5MVNmeIiRbhc92
 R3
@@ -54,7 +54,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1795266405.000000
+R6
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/alu.sv|
 !i113 1
@@ -63,7 +63,7 @@ R8
 R9
 valu_decoder
 R1
-Z12 !s110 1795266407
+Z10 !s110 1795700394
 !i10b 1
 !s100 cW8>gom@@_38a_[9A0c080
 R3
@@ -80,7 +80,7 @@ R5
 r1
 !s85 0
 31
-Z13 !s108 1795266407.000000
+Z11 !s108 1795700394.000000
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/alu_decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/alu_decoder.sv|
 !i113 1
@@ -89,7 +89,7 @@ R8
 R9
 varm_cpu
 R1
-Z14 !s110 1795266404
+Z12 !s110 1795700389
 !i10b 1
 !s100 3b1]YP0NVhD;BK6fPe_UE2
 R3
@@ -106,7 +106,7 @@ R5
 r1
 !s85 0
 31
-Z15 !s108 1795266403.000000
+Z13 !s108 1795700389.000000
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/arm_cpu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/arm_cpu.sv|
 !i113 1
@@ -115,7 +115,7 @@ R8
 R9
 varm_top
 R1
-!s110 1795266403
+R12
 !i10b 1
 !s100 _13?>aDTK@l]C;hRSna?10
 R3
@@ -127,12 +127,12 @@ w1794288619
 8C:/Users/Bui Hoang/Documents/FPGA/arm/arm_top.sv
 FC:/Users/Bui Hoang/Documents/FPGA/arm/arm_top.sv
 !i122 0
-Z16 L0 1 19
+Z14 L0 1 19
 R5
 r1
 !s85 0
 31
-R15
+R13
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/arm_top.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/arm_top.sv|
 !i113 1
@@ -141,7 +141,7 @@ R8
 R9
 vcondlogic
 R1
-Z17 !s110 1795266408
+Z15 !s110 1795700395
 !i10b 1
 !s100 JoFEWfW@m8h9KX1n[X_DG3
 R3
@@ -158,7 +158,7 @@ R5
 r1
 !s85 0
 31
-Z18 !s108 1795266408.000000
+Z16 !s108 1795700395.000000
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/condlogic.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/condlogic.sv|
 !i113 1
@@ -167,7 +167,7 @@ R8
 R9
 vcontroller
 R1
-R14
+!s110 1795700390
 !i10b 1
 !s100 V6JFHc_Qd0^ae4OT2T=Kn0
 R3
@@ -184,7 +184,7 @@ R5
 r1
 !s85 0
 31
-Z19 !s108 1795266404.000000
+!s108 1795700390.000000
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/control_unit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/control_unit.sv|
 !i113 1
@@ -193,7 +193,7 @@ R8
 R9
 vdatapath
 R1
-R14
+Z17 !s110 1795700391
 !i10b 1
 !s100 lmm`iDj<j88360jjYjEE12
 R3
@@ -210,7 +210,7 @@ R5
 r1
 !s85 0
 31
-R19
+Z18 !s108 1795700391.000000
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/datapath.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/datapath.sv|
 !i113 1
@@ -219,7 +219,7 @@ R8
 R9
 vdecoder
 R1
-R17
+R15
 !i10b 1
 !s100 HX1BcX84e6F?ndiIMzeNX0
 R3
@@ -236,7 +236,7 @@ R5
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/decoder.sv|
 !i113 1
@@ -245,7 +245,7 @@ R8
 R9
 vdmem
 R1
-Z20 !s110 1795266409
+R15
 !i10b 1
 !s100 fB5>?ERCzaY_@NDCDV73g2
 R3
@@ -262,7 +262,7 @@ R5
 r1
 !s85 0
 31
-R18
+R16
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/dmem.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/dmem.sv|
 !i113 1
@@ -271,24 +271,24 @@ R8
 R9
 vextend
 R1
-R10
+R2
 !i10b 1
-!s100 K_Segj?lg>a[5Fifd;[YK1
+!s100 @F;;F<7IHE4cDQXNA6jA:1
 R3
-Ibe0=US7[iR]hUzemHe3[Y1
+I0h0FS6H2a_UiR?nY3^VX>3
 R4
 S1
 R0
-w1794825694
+w1795668613
 8C:/Users/Bui Hoang/Documents/FPGA/arm/extend.sv
 FC:/Users/Bui Hoang/Documents/FPGA/arm/extend.sv
 !i122 6
-R16
+R14
 R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/extend.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/extend.sv|
 !i113 1
@@ -297,7 +297,7 @@ R8
 R9
 vflopenr
 R1
-R12
+Z19 !s110 1795700393
 !i10b 1
 !s100 U3f_XF6z7I>F[g9BZ5[ZI0
 R3
@@ -309,12 +309,12 @@ w1792989289
 8C:/Users/Bui Hoang/Documents/FPGA/arm/flopenr.sv
 FC:/Users/Bui Hoang/Documents/FPGA/arm/flopenr.sv
 !i122 11
-Z21 L0 1 9
+Z20 L0 1 9
 R5
 r1
 !s85 0
 31
-R13
+Z21 !s108 1795700393.000000
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/flopenr.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/flopenr.sv|
 !i113 1
@@ -323,7 +323,7 @@ R8
 R9
 vflopr
 R1
-R2
+R19
 !i10b 1
 !s100 M1H7HGHKB[WD4Nj`Z5^[c1
 R3
@@ -335,12 +335,12 @@ w1792989266
 8C:/Users/Bui Hoang/Documents/FPGA/arm/flopr.sv
 FC:/Users/Bui Hoang/Documents/FPGA/arm/flopr.sv
 !i122 10
-R21
+R20
 R5
 r1
 !s85 0
 31
-R6
+R21
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/flopr.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/flopr.sv|
 !i113 1
@@ -349,24 +349,24 @@ R8
 R9
 vimem
 R1
-R20
+Z22 !s110 1795700396
 !i10b 1
-!s100 e87A1NA833Gck;8R7a^kR1
+!s100 j`?B^JPNB0UCVMDK=Am;e3
 R3
-IVoflQHlHHh`V>_J8SB1GG2
+IRCgX;8L57^f:l75b]i4IT2
 R4
 S1
 R0
-w1795017880
+w1795700331
 8C:/Users/Bui Hoang/Documents/FPGA/arm/imem.sv
 FC:/Users/Bui Hoang/Documents/FPGA/arm/imem.sv
 !i122 18
-Z22 L0 1 11
+Z23 L0 1 11
 R5
 r1
 !s85 0
 31
-Z23 !s108 1795266409.000000
+Z24 !s108 1795700396.000000
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/imem.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/imem.sv|
 !i113 1
@@ -375,7 +375,7 @@ R8
 R9
 vmain_decoder
 R1
-R12
+R10
 !i10b 1
 !s100 g`CADM;nB4h^YaadM[U`50
 R3
@@ -392,7 +392,7 @@ R5
 r1
 !s85 0
 31
-R13
+R11
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/main_decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/main_decoder.sv|
 !i113 1
@@ -401,7 +401,7 @@ R8
 R9
 vmux2
 R1
-R2
+R19
 !i10b 1
 !s100 _O`V3]Wo@C[hdj@UBV;UN3
 R3
@@ -418,7 +418,7 @@ R5
 r1
 !s85 0
 31
-R6
+R21
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/mux2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/mux2.sv|
 !i113 1
@@ -427,7 +427,7 @@ R8
 R9
 vpc_logic
 R1
-R17
+R15
 !i10b 1
 !s100 YzNcblzE=>8I<92>Sl0W>0
 R3
@@ -439,12 +439,12 @@ w1794199751
 8C:/Users/Bui Hoang/Documents/FPGA/arm/pc_logic.sv
 FC:/Users/Bui Hoang/Documents/FPGA/arm/pc_logic.sv
 !i122 14
-R22
+R23
 R5
 r1
 !s85 0
 31
-R18
+R11
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/pc_logic.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/pc_logic.sv|
 !i113 1
@@ -453,7 +453,7 @@ R8
 R9
 vregfile
 R1
-R14
+R17
 !i10b 1
 !s100 F@P8X@>Nc[N8j>kg^V_?h1
 R3
@@ -470,7 +470,7 @@ R5
 r1
 !s85 0
 31
-R19
+R18
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/regfile.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/regfile.sv|
 !i113 1
@@ -479,7 +479,7 @@ R8
 R9
 vshifter
 R1
-R10
+R17
 !i10b 1
 !s100 [KRXTJCGl]76?WY7@N79m0
 R3
@@ -496,7 +496,7 @@ R5
 r1
 !s85 0
 31
-R11
+R18
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/shifter.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/shifter.sv|
 !i113 1
@@ -505,24 +505,24 @@ R8
 R9
 vtestbench
 R1
-R20
+R22
 !i10b 1
-!s100 J;I049;VT?e7z_B>AWYaC0
+!s100 [2dd>l_jH<?<UJ<HYYf0^3
 R3
-IQ?^VZJUa2Rkl2mMW9zA5I0
+I@Fo]`ML2iSMXQbzgZ0z2Q0
 R4
 S1
 R0
-w1794233348
+w1795612195
 8C:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv
 FC:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv
 !i122 19
-L0 3 75
+L0 3 103
 R5
 r1
 !s85 0
 31
-R23
+R24
 !s107 C:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Bui Hoang/Documents/FPGA/arm|C:/Users/Bui Hoang/Documents/FPGA/arm/testbench.sv|
 !i113 1

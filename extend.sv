@@ -12,7 +12,7 @@ module extend (
 
             2'b10: ExtImm = {{6{Instr[23]}}, Instr[23:0],2'b00}; //Branch
 
-            default: ExtImm = 32'b0;
+            default: ExtImm = 32'bx;
         endcase
     end
 

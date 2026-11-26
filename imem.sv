@@ -7,5 +7,5 @@ module imem(
 	initial 
 		$readmemh("C:/Users/Bui Hoang/Documents/FPGA/arm/mem.dat",ROM);
 
-    assign rd = ROM[a[31:2]]; 
+    assign rd = ROM[a[7:2]]; 
 endmodule
